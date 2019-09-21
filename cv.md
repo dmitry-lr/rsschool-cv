@@ -4,8 +4,10 @@
 ### Moscow/Minsk
 ### mob. +375 25 7564 1987, email: dmitrylrodygin@gmail.com 
 
-By participating in this course, I try to get a solid knowledge of HTML, CSS and JavaScript
+Goal: by participating in this course, I try to get a solid knowledge of HTML, CSS and JavaScript.
 
-Experience: functional testing (current position - Software testing engineer)
+Experience: functional testing (current position - Software testing engineer).
 
-Education: Bauman MSTU, special machinery
+Education: Bauman MSTU, special machinery.
+
+English level: B1+.
