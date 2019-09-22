@@ -1,0 +1,13 @@
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+header {
+    text-align:center;
+}
+.fio {
+    font-size: 150%
+}
+.info {
+    font-weight: 200;
+}
