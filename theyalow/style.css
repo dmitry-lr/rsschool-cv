@@ -1,0 +1,599 @@
+.container_1 {
+    width: 1300px;
+    margin: 0 auto;
+    display: block;
+}
+.header {
+    height: 566px;
+    width: 1300px;
+    background-image: url(assets/images/BG\ Header.png);
+    display: grid;
+    grid-template-rows: 168px 398px;
+    grid-template-columns: 140px 560px 460px 140px;
+    grid-template-areas: 
+    ". logo nav nav"
+    "arrow_left parrots the arrow_right";
+}
+.logo{
+    grid-area: logo;
+    position: relative;
+}
+.logo_f {
+    margin: 0;
+    width: 85px;
+    padding-top: 29px;
+} 
+.logo_b {
+   margin: 0;
+   width: 85px;
+   position: relative;
+   top: -86px;
+   left: 3px;
+} 
+@font-face {
+   font-family: "OpenSans";
+   src: url(assets/fonts/open-sans/OpenSans-Italic.ttf);
+}
+.logo_label {
+   position: absolute;
+   color: aliceblue;
+   text-transform: uppercase;
+   top: 47px;
+   left: 92px; 
+   font-size: 41px;
+   font-family: "OpenSans";
+   letter-spacing: 0px;
+   text-shadow: 1px 1.732px 0px rgba(0,0,0,0.42);
+
+}
+.nav {
+    grid-area: nav;
+    position: relative;
+}
+@font-face {
+    font-family: 'Segoe';
+    src: url(assets/fonts/SegoeWP.ttf);
+}
+.nav_spisok {
+    position: absolute;  
+    margin: 0;
+    padding: 0;
+}
+.linav {
+    display: inline-block;
+    font-family: "Segoe";
+    color: #9b7d08;
+    font-size: 17px;
+    letter-spacing: 0px;
+}
+.nav_spisok li:nth-child(1) {
+    margin: 8px 35px 11px 42px;
+}
+.nav_spisok li:nth-child(2) {
+    margin: 8px 14px 11px 5px;
+}
+.nav_spisok li:nth-child(3) {
+    margin: 8px 0px 11px 20px;
+}
+ a:hover, a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: hand;
+}
+.icon {
+  position: relative;
+  right: 8px;
+  top: 3px;
+}
+
+.line1 {
+  position: absolute;
+  left: 172px;
+  top: 0px;
+}
+.line2 {
+    position: absolute;
+    left: 305px;
+    top: 0px;
+}
+.back1 {
+    width: 453px;
+    height: 41px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    position: absolute;
+    top: 71px;
+    left: 8px;
+    margin: 0;
+} 
+.back2 {
+    width: 453px;
+    height: 41px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    opacity: 0.27;
+    position: absolute;
+    top: 66px;
+    left: 4px;
+    margin:0;
+}
+.back3 {
+    width: 453px;
+    height: 41px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    opacity: 0.27;
+    position: absolute;
+    top: 64px;
+    margin: 0;
+} 
+.vid_par {
+    grid-area: parrots;
+    margin: 0 auto auto 10px;
+    position: relative;
+}
+.play_circle {
+    position: absolute;
+    left: 241px;
+    top: 132px; 
+    font-size: 0;
+    line-height: 0;
+    margin:0;
+}
+.play_arrow {
+    position: absolute;
+    left: 268px;
+    top: 147px;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+}
+.square {
+    position: absolute;
+    left: 29px;
+    top: 281px; 
+    font-size: 0;
+    line-height: 0;
+    margin:0;
+}
+.play_square {
+    position: absolute;
+    left: 40px;
+    top: 284px;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+}
+.progress_bar {
+    position: absolute;
+    left: 96px;
+    top: 287px; 
+    font-size: 0;
+    line-height: 0;
+    margin:0;
+}
+.progress {
+    position: absolute;
+    left: 82px;
+    top: 287px;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+}
+.sound {
+    position: absolute;
+    left: 516px;
+    top: 288px; 
+    font-size: 0;
+    line-height: 0;
+    margin:0;
+}
+@font-face {
+    font-family: "Asap";
+    src: url(assets/fonts/asap/Asap-Regular.otf);
+}
+.the {
+    grid-area: the;
+    font-size: 63px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: "Asap";
+    margin: 0;
+    padding: 0;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+.the_cool {
+    color: #f5c506;
+    margin: 80px auto 0 90px;
+}
+.the_minimal {    
+    color: white; 
+    margin: 12px auto auto 50px;
+}
+.arrowLeft {
+    grid-area: arrow_left;
+    background-color: #f5c506;
+    width: 32px;
+    height: 57px;
+    margin: 132px auto auto 0;
+    border: 0;
+    padding: 0;
+}
+.arLeft {
+    margin: 0;
+}
+.arrowRight {
+    grid-area: arrow_right;
+    background-color: #f5c506;
+    width: 32px;
+    height: 57px;
+    margin: 132px 0 auto auto;
+    border: 0;
+    padding: 0;
+
+}
+.arRight {
+   margin: 0;
+}
+.main {
+    height: 1216px;
+    width: 1300px;
+}
+@font-face {
+    font-family: SegoeUI;
+    src: url(assets/fonts/Segoe\ UI.ttf);
+}
+.white {
+    height: 212px;
+    background-image: url(assets/images/WhiteBG.png); 
+    display:grid;
+    grid-template-rows: 212px;
+    grid-template-columns: 140px repeat(3, 340px) 140px;
+    grid-template-areas: 
+    ". oblako list samolet .";
+}
+.yellow {
+    height: 508px;
+    background-image: url(assets/images/YellowBG.png);
+    display: grid;
+    grid-template-rows: 110px 233px 86px 79px;
+    grid-template-columns: 140px repeat(3, 340px) 140px;
+    grid-template-areas: 
+    ". llw llw . ."
+    " . lorem hat bird ."
+    ". data. . ."
+    ". slide slide slide .";
+}
+.cloud {
+    grid-area: oblako;
+    margin:0;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+}
+.cloud_pic {
+    margin: 61px auto 0 112px;
+    border: 0;
+    font-size: 0;
+    display: block;
+}
+.better {
+    border: 0;
+    margin-left: 86px;
+    margin-top: 9px;
+}
+.leaf {
+    grid-area: list;
+    margin: 0;
+    border-right: 1px solid #d4d4d4;
+}
+.leaf_pic {
+    margin: 37px auto 0 135px; 
+    font-size: 0;
+    display: block;
+}
+.custom {
+    margin-left: 111px;
+    margin-top: 13px;
+}
+.plane {
+    grid-area: samolet;
+    margin: 0;
+    border-right: 1px solid #d4d4d4;
+}
+.plane_pic {
+    margin: 54px auto 0 119px;
+    font-size: 0;
+    display: block;
+}
+.free {
+    margin-left: 113px;
+    margin-top: 8px;
+}
+.fig_font {
+    font-family: SegoeUI;
+    text-transform: uppercase;
+    font-size: 27px;
+    letter-spacing: 0px;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "PT_Sans";
+    src: url(assets/fonts/pt-sans/PTC55F.ttf);
+}
+.lorem_label {
+    grid-area: llw;
+    font-size: 37px;
+    letter-spacing: 0px;
+    font-family: "PT_Sans";
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    height: 110px;
+    display: flex;
+    align-items: center; 
+}
+.article {
+    grid-area: lorem;
+    font-size: 29px;
+    background-color: #ec9e03;
+    font-family: "Segoe";
+    padding-left: 30px;
+    padding-top: 16px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #ffffff;
+    display: flex;
+    position: relative;
+}
+.plus {
+    position: absolute;
+    left: 315px;
+    top: 209px;
+    font-size: 0;
+    line-height: 0;
+}
+.hat {
+    grid-area: hat;
+    justify-self: start; 
+    position: relative; 
+}
+.p_circle {
+    position: absolute;
+    left: 130px;
+    top: 93px; 
+    font-size: 0;
+    line-height: 0;
+}
+.p_arrow {
+    position: absolute;
+    left: 155px;
+    top: 108px;
+    font-size: 0;
+    line-height: 0;
+}
+.twitter {
+    grid-area: bird;
+    width: 332px;
+    height: 233px;
+    background-color: #ec9e03;
+    position: relative;
+    margin-left: 8px;
+}
+.bird_pic {
+    position: absolute;
+    top: 59px;
+    left: 84px;
+}
+.plus_1 {
+    position: absolute;
+    left: 310px;
+    top: 208px;
+    font-size: 0;
+    line-height: 0;
+}
+.count {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Segoe";
+    font-weight: 300;
+    position: absolute;
+    top: 16px;
+    left: 286px;
+}
+.date {
+    grid-area: data;
+    background-color: #ddb101;
+    width: 113px;
+    height: 86px;
+   
+}
+.number {
+    font-family: "SegoeUI";
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 13px;
+    
+}
+.month {
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "SegoeUI";
+    padding-left: 31px;
+}
+.slidecontainer {
+    grid-area: slide;
+    margin-top: 43px;
+    margin-left: 73px;
+}
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 896px; /* Full-width */
+  height: 15px; /* Specified height */
+  background: #ffffff; 
+  outline: none; /* Remove outline */
+  opacity: 0.48; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  border-radius: 7px;
+}
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+   .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 197px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ec9e03;
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 197px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ec9e03;
+    cursor: pointer; /* Cursor on hover */
+  }
+  .gray {
+    height: 497px;
+    background-image: url(assets/images/grey_grid.png);
+    display:grid;
+    grid-template-rows: 94px 85px 111px auto; 
+    grid-template-columns: 140px 365px 154px 119px auto 140px;
+    grid-template-areas: 
+    ". llw llw llw llw ."
+    ". big . . . . "
+    ". big medium . spisok ."
+    ". big medium smal spisok ."
+}  
+.lorem_yellow {
+  grid-area: llw;
+  font-size: 43px;
+  letter-spacing: 0px;
+  color: #f5c506;
+  font-family: "PT_Sans";
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-left: 213px;
+  margin-top: 48px;
+}
+.big {
+    grid-area: big;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.comp {
+    position: absolute;
+    top: 43px;
+    left: 18px;
+    z-index: 1;
+}
+.ellipse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+@font-face {
+    font-family: "PT_Sans_narrow";
+    src: url(assets/fonts/pt-sans/PTN77F.ttf);
+}
+.its {
+    position: absolute;
+    top: 51px;
+    left: 7px;
+    line-height: 14px;
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT_Sans_narrow";
+    font-weight: 700;
+    z-index: 3;
+}
+.middle {
+   grid-area: medium; 
+}
+.small {
+    grid-area: smal;
+}
+.list {
+    grid-area: spisok;
+}
+@font-face {
+    font-family: "Open_Sans";
+    src: url(assets/fonts/open-sans/OpenSans-Light.ttf);
+}
+.list_of {
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open_Sans";
+    font-weight: 400;
+    list-style-image: url(assets/images/Bullet.png);
+    line-height: 28px;
+}
+.li_list {
+    margin-left: 22px;
+    padding-bottom: 10px;
+    /* padding-top: 2px; */
+    padding-left: 9px;
+    padding-right: 2px;
+}
+.list_of li:nth-child(2) {
+    padding-top: 11px;
+}
+.list_of li:nth-child(4) {
+    padding-top:  13px;
+    }
+    
+.footer {
+    height: 64px;
+    width: 1300px;
+    display:grid;
+    background-color: #4c4c4c;
+    grid-template-rows: 64px;
+    grid-template-columns: 140px 63px auto;
+    grid-template-areas: " . small_logo small_lbl";
+    box-shadow: 0px 4.732px -4px rgba(0,0,0,0.42);
+}
+.small_logotip {
+    grid-area: small_logo;
+    position: relative;
+}
+.sm_logo_f {
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.sm_logo_b {
+    position: absolute;
+    top: 8px;
+    left:2px;
+}
+.small_label {
+    grid-area: small_lbl;  
+}
+.sm_lb {
+    font-size: 29px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: "OpenSans";
+    font-style: italic;
+    text-shadow: 1px 1.732px 0px rgba(0,0,0,0.42);
+    margin-top: 14px;
+}
